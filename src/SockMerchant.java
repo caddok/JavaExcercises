@@ -1,5 +1,3 @@
-import java.awt.*;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SockMerchant {
@@ -14,13 +12,11 @@ public class SockMerchant {
         }
 
         for (int i = 0; i < pile.length; i++) {
-            int sockNum = pile[i];
             if (used[i] == true)
             {
                 continue;
             }
             for (int j = i + 1; j <= pile.length - 1; j++) {
-                int sockNmbr = pile[j];
                 if (pile[i] == pile[j] && used[j] == false){
                     pairs++;
                     used[j] = true;

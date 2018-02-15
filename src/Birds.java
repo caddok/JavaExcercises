@@ -80,31 +80,6 @@ public class Birds implements Comparable<Birds> {
         sortedBirds.add(type4);
         sortedBirds.add(type5);
 
-
-/*        for (int i = 0; i < sortedBirds.size() - 1; i++) {
-            if (sortedBirds.get(i).count > sortedBirds.get(i+1).count && maxCount < sortedBirds.get(i).count)
-            {
-                max = sortedBirds.get(i).type;
-                maxCount = sortedBirds.get(i).count;
-            }
-            else if (sortedBirds.get(i).count == sortedBirds.get(i + 1).count && maxCount < sortedBirds.get(i).count)
-            {
-                if (sortedBirds.get(i).type < sortedBirds.get(i + 1).type)
-                {
-                    max = sortedBirds.get(i).type;
-                    maxCount = sortedBirds.get(i).count;
-                }
-                else {
-                    max = sortedBirds.get(i + 1).type;
-                    maxCount = sortedBirds.get(i + 1).count;
-                }
-            }
-            else if (sortedBirds.get(i).count < sortedBirds.get(i + 1).count && maxCount < sortedBirds.get(i + 1).count) {
-                max = sortedBirds.get(i + 1).type;
-                maxCount = sortedBirds.get(i + 1).count;
-            }
-        }*/
-
         System.out.println(sortedBirds.peek().getType());
 
     }
